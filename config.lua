@@ -42,8 +42,8 @@ maxContainer = 100
 
 -- Version Manual
 clientVersionMin = 1100
-clientVersionMax = 1231
-clientVersionStr = "Only support outdated 10.00 and version 12.31"
+clientVersionMax = 1240
+clientVersionStr = "Only support outdated 10.00 and version 12.40"
 
 -- Depot Limit
 freeDepotLimit = 2000
@@ -61,6 +61,7 @@ deathLosePercent = -1
 
 -- Houses
 -- NOTE: set housePriceEachSQM to -1 to disable the ingame buy house functionality
+-- Periods: daily/weekly/monthly/yearly/never
 housePriceEachSQM = 10000
 houseRentPeriod = "monthly"
 
@@ -85,8 +86,8 @@ maxMarketOffersAtATimePerPlayer = 100
 -- MySQL
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
-mysqlPass = ""
-mysqlDatabase = "global"
+mysqlPass = "senha"
+mysqlDatabase = "database"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"
